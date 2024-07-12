@@ -17,7 +17,7 @@
     background-color: $background-color;
     color: $success-color;
     transition: 1s background-color;
-    padding: 0.6rem 4rem;
+    padding: 1.8% 2%;
     font-size: 100%;
     margin-bottom: 1.2rem;
     @include buttons-params($success-color);
@@ -30,6 +30,6 @@
     }
 
     i{
-        margin-right: 1rem;
+        margin-right: 2%;
     }
 }

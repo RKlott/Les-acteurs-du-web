@@ -1,7 +1,7 @@
 @mixin buttons-params ($color){
     border: solid 0.15rem #{$color};
     border-radius: 0.4em;
-    flex: auto;
+    
 }
 
 @mixin mp-reset{

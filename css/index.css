@@ -13,7 +13,6 @@ body {
 #sending-button {
   border: solid 0.15rem #193176;
   border-radius: 0.4em;
-  flex: auto;
   color: #EFECE7;
   background-color: #193176;
   padding: 0.5rem 0;
@@ -28,12 +27,11 @@ body {
   background-color: #EFECE7;
   color: #22863B;
   transition: 1s background-color;
-  padding: 0.6rem 4rem;
+  padding: 1.8% 2%;
   font-size: 100%;
   margin-bottom: 1.2rem;
   border: solid 0.15rem #22863B;
   border-radius: 0.4em;
-  flex: auto;
 }
 #form-button:hover {
   background-color: #22863B;
@@ -41,7 +39,7 @@ body {
   cursor: pointer;
 }
 #form-button i {
-  margin-right: 1rem;
+  margin-right: 2%;
 }
 
 #navbar-container {
