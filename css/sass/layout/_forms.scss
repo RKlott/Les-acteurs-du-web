@@ -1,5 +1,15 @@
+@import url("../utils/_variables.scss");
+
 #form-params{
+    
     display: flex;
+    flex-wrap: wrap;
+
+    @media only screen and (max-width: $breakpoint-tablet) {
+        flex-direction: column;
+    }
+
+    
     
     #contact{
         flex: 0 0 50%;
@@ -23,6 +33,14 @@
     }
 
     #recommendations{
+
+
+        @media only screen and (max-width: $breakpoint-tablet) {
+            margin: 1rem 0 1rem 0;
+            order: -1;
+
+        }
+
         flex: 1;
         margin-left: 3.5rem;
 
@@ -36,13 +54,17 @@
         }
 
         img{
-            width: 8%;
-            height: 8%;
+            width: 48px;
+            height: 48px;
             border-radius: 50px;
         }
         
         .recoms-card{
             margin-bottom: 3rem;
+
+            @media only screen and (max-width: $breakpoint-tablet){
+                margin-bottom: 0;
+            }
         }
 
         .recoms-person{

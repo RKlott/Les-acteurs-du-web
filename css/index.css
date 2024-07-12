@@ -3,6 +3,7 @@
 @import url(../utils/_variables.scss);
 @import url("../utils/_variables.scss");
 @import url("../utils/_variables.scss");
+@import url("../utils/_variables.scss");
 body {
   margin: 0;
   padding: 0;
@@ -94,6 +95,12 @@ header .div-logo:hover #hover-logo {
 
 #form-params {
   display: flex;
+  flex-wrap: wrap;
+}
+@media only screen and (max-width: 854px) {
+  #form-params {
+    flex-direction: column;
+  }
 }
 #form-params #contact {
   flex: 0 0 50%;
@@ -118,6 +125,12 @@ header .div-logo:hover #hover-logo {
   flex: 1;
   margin-left: 3.5rem;
 }
+@media only screen and (max-width: 854px) {
+  #form-params #recommendations {
+    margin: 1rem 0 1rem 0;
+    order: -1;
+  }
+}
 #form-params #recommendations h3, #form-params #recommendations p {
   margin-top: 0;
 }
@@ -126,12 +139,17 @@ header .div-logo:hover #hover-logo {
   margin-left: 0.5rem;
 }
 #form-params #recommendations img {
-  width: 8%;
-  height: 8%;
+  width: 48px;
+  height: 48px;
   border-radius: 50px;
 }
 #form-params #recommendations .recoms-card {
   margin-bottom: 3rem;
+}
+@media only screen and (max-width: 854px) {
+  #form-params #recommendations .recoms-card {
+    margin-bottom: 0;
+  }
 }
 #form-params #recommendations .recoms-person {
   display: flex;
@@ -181,7 +199,7 @@ footer .footer-flex-end ul .linkedin {
 
 #main-section {
   margin: 3% 15% 0 15%;
-  line-height: 1.3rem;
+  line-height: 1.4rem;
   margin-bottom: 7rem;
 }
 #main-section #david-presentation {
@@ -192,6 +210,7 @@ footer .footer-flex-end ul .linkedin {
   padding: 0;
 }
 #main-section #david-presentation img {
-  width: 7rem;
+  width: 111px;
+  height: 111px;
   transform: rotateY(3.124rad);
 }/*# sourceMappingURL=index.css.map */
