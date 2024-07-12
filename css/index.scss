@@ -1,0 +1,29 @@
+//*utils
+@import "./sass/utils/_variables.scss";
+@import "./sass/utils/_mixins.scss";
+
+//*base
+@import "./sass/base/_normalize.scss";
+@import "./sass/base/_fonts.scss";
+//text-size: 16px de base
+
+//*components
+@import "./sass/components/_buttons.scss";
+@import "./sass/components/_navigations.scss";
+
+//*layout
+@import "./sass/layout/_header.scss";
+@import "./sass/layout/_forms.scss";
+@import "./sass/layout/_footer.scss";
+
+
+
+//*pages
+@import "./sass/pages/_home.scss";
+
+
+
+
+
+
+

@@ -1,0 +1,35 @@
+@import url(../utils/_mixins.scss);
+@import url(../utils/_variables.scss);
+
+#sending-button{
+    @include buttons-params($primary-color);
+    color: $background-color;
+    background-color: $primary-color;
+    padding: 0.5rem 0;
+    transition: all .4s ease;
+    &:hover{
+        cursor: pointer;
+        filter: brightness(1.45);
+    }
+}
+
+#form-button{
+    background-color: $background-color;
+    color: $success-color;
+    transition: 1s background-color;
+    padding: 0.6rem 4rem;
+    font-size: 100%;
+    margin-bottom: 1.2rem;
+    @include buttons-params($success-color);
+
+    &:hover{
+        background-color: $success-color;
+        color: $background-color;
+        cursor: pointer;
+        
+    }
+
+    i{
+        margin-right: 1rem;
+    }
+}

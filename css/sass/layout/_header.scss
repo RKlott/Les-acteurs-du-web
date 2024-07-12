@@ -1,0 +1,34 @@
+@import url("../utils/_variables.scss");
+
+header {
+    background-color: $primary-color;
+    display: flex;
+    padding: 1rem 0.8rem 3.5rem 0.4rem;
+
+    border-bottom-right-radius: 30%;
+    border-bottom-left-radius: 30%;
+
+    .div-logo{
+        position: relative;
+        margin-left: 0.8rem;
+        #hover-logo{
+            position: absolute;
+            display: none;
+        }
+
+        #showed-logo{
+            position:absolute;
+        }
+
+        &:hover{
+            #showed-logo{
+                display: none;
+            }
+
+            #hover-logo{
+                display: block;
+            }
+        }
+    }
+}
+    

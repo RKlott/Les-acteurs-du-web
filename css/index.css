@@ -1,0 +1,199 @@
+@import url(../utils/_mixins.scss);
+@import url(../utils/_variables.scss);
+@import url(../utils/_variables.scss);
+@import url("../utils/_variables.scss");
+@import url("../utils/_variables.scss");
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #EFECE7;
+  color: #321E01;
+}
+
+#sending-button {
+  border: solid 0.15rem #193176;
+  border-radius: 0.4em;
+  flex: auto;
+  color: #EFECE7;
+  background-color: #193176;
+  padding: 0.5rem 0;
+  transition: all 0.4s ease;
+}
+#sending-button:hover {
+  cursor: pointer;
+  filter: brightness(1.45);
+}
+
+#form-button {
+  background-color: #EFECE7;
+  color: #22863B;
+  transition: 1s background-color;
+  padding: 0.6rem 4rem;
+  font-size: 100%;
+  margin-bottom: 1.2rem;
+  border: solid 0.15rem #22863B;
+  border-radius: 0.4em;
+  flex: auto;
+}
+#form-button:hover {
+  background-color: #22863B;
+  color: #EFECE7;
+  cursor: pointer;
+}
+#form-button i {
+  margin-right: 1rem;
+}
+
+#navbar-container {
+  flex-grow: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+#nav #navbar {
+  display: flex;
+  list-style-type: none;
+  margin-right: 2rem;
+}
+#nav #navbar a {
+  color: #D6D0C2;
+  text-decoration: none;
+  padding: 0.4rem 1rem 0.2rem 1rem;
+}
+#nav #navbar .navbar-scoop {
+  color: #D6D0C2;
+}
+
+.navbar-small-margin {
+  margin-right: 0.4rem;
+  margin-left: 2rem;
+}
+
+header {
+  background-color: #193176;
+  display: flex;
+  padding: 1rem 0.8rem 3.5rem 0.4rem;
+  border-bottom-right-radius: 30%;
+  border-bottom-left-radius: 30%;
+}
+header .div-logo {
+  position: relative;
+  margin-left: 0.8rem;
+}
+header .div-logo #hover-logo {
+  position: absolute;
+  display: none;
+}
+header .div-logo #showed-logo {
+  position: absolute;
+}
+header .div-logo:hover #showed-logo {
+  display: none;
+}
+header .div-logo:hover #hover-logo {
+  display: block;
+}
+
+#form-params {
+  display: flex;
+}
+#form-params #contact {
+  flex: 0 0 50%;
+  display: flex;
+  flex-direction: column;
+}
+#form-params #contact form {
+  display: flex;
+  flex-direction: column;
+}
+#form-params #contact form input {
+  flex: auto;
+  padding: 0.3rem;
+}
+#form-params #contact form label {
+  margin-bottom: 0.3rem;
+}
+#form-params #contact form .space {
+  margin-bottom: 0.8rem;
+}
+#form-params #recommendations {
+  flex: 1;
+  margin-left: 3.5rem;
+}
+#form-params #recommendations h3, #form-params #recommendations p {
+  margin-top: 0;
+}
+#form-params #recommendations h4 {
+  margin-top: 0.2rem;
+  margin-left: 0.5rem;
+}
+#form-params #recommendations img {
+  width: 8%;
+  height: 8%;
+  border-radius: 50px;
+}
+#form-params #recommendations .recoms-card {
+  margin-bottom: 3rem;
+}
+#form-params #recommendations .recoms-person {
+  display: flex;
+}
+
+footer {
+  display: flex;
+  padding: 3rem 0 1rem 0;
+  flex-grow: 1;
+  border-top-left-radius: 30%;
+  border-top-right-radius: 30%;
+  background-color: #193176;
+}
+footer #footer-main-ul {
+  display: flex;
+  color: #EFECE7;
+  list-style-type: none;
+  gap: 1.5rem;
+}
+footer #footer-main-ul a {
+  text-decoration: none;
+  color: #EFECE7;
+}
+footer #footer-main-ul .special-gap {
+  margin-left: 5rem;
+}
+footer .footer-flex-end {
+  flex: auto;
+  margin-right: 3rem;
+}
+footer .footer-flex-end ul {
+  align-content: center;
+  list-style-type: none;
+  text-align: center;
+  gap: 1.4rem;
+  display: flex;
+  justify-content: flex-end;
+  color: white;
+}
+footer .footer-flex-end ul .linkedin {
+  border-radius: 3px;
+  margin: 0;
+  padding: 0.1rem 0.2rem;
+  color: #193176;
+  background-color: white;
+}
+
+#main-section {
+  margin: 3% 15% 0 15%;
+  line-height: 1.3rem;
+  margin-bottom: 7rem;
+}
+#main-section #david-presentation {
+  display: flex;
+}
+#main-section #david-presentation p {
+  margin: 0 0 0 1rem;
+  padding: 0;
+}
+#main-section #david-presentation img {
+  width: 7rem;
+  transform: rotateY(3.124rad);
+}/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,49 @@
+@import url("../utils/_variables.scss");
+
+footer{
+    display: flex;
+    padding: 3rem 0 1rem 0;
+    flex-grow: 1;
+    border-top-left-radius: 30%;
+    border-top-right-radius: 30%;
+    background-color: $primary-color;
+
+    #footer-main-ul{
+        display: flex;
+        color: $background-color;
+        list-style-type: none;
+        gap: 1.5rem;
+
+        a{
+            text-decoration: none;
+            color: $background-color;
+        }
+
+        .special-gap{
+            margin-left: 5rem;
+        }
+ 
+    }
+
+    .footer-flex-end{
+        flex: auto;
+        margin-right: 3rem;
+        ul{
+            align-content: center;
+            list-style-type: none;
+            text-align: center;
+            gap: 1.4rem;
+            display: flex;
+            justify-content: flex-end;
+            color: white;
+
+                .linkedin{
+                    border-radius: 3px;
+                    margin: 0;
+                    padding: 0.1rem 0.2rem ;
+                    color: $primary-color;
+                    background-color: white;
+            }
+        }
+    }
+}

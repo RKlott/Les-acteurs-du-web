@@ -1,0 +1,31 @@
+@import url(../utils/_variables.scss);
+
+#navbar-container{
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+#nav{
+    #navbar{
+        display: flex;
+        list-style-type: none;
+        margin-right: 2rem;
+        a{
+            color: $gray-color;
+            text-decoration: none;
+            padding: 0.4rem 1rem 0.2rem 1rem;
+        }
+
+        .navbar-scoop{
+            color: $gray-color;
+        }
+    }
+}
+
+
+.navbar-small-margin{
+margin-right: 0.4rem;
+margin-left: 2rem;
+}
